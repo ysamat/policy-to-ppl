@@ -116,10 +116,6 @@ streamlit run main.py
 - Policy API retrieval mode
 - Persona library
 
-## 📄 License
-
-MIT License — see LICENSE file.
-
 ## 🙏 Acknowledgements
 
 Built with Streamlit, PyPDF2, tiktoken, and OpenAI Python SDK.
