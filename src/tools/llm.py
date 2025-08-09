@@ -1,5 +1,7 @@
 import os
 from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 
 _MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 _client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
